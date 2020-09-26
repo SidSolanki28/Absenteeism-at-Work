@@ -30,6 +30,7 @@ To put it simply – SQL helps us store and manipulate the data we are working w
 - Resources used:
 
 * Udemy : https://udemy.com/course/python-sql-tableau-integrating-python-sql-and-tableau
+* Machine Learning Mastery : https://machinelearningmastery.com/logistic-regression-for-machine-learning/
 
 ---
 ## Web Scraping
@@ -76,7 +77,16 @@ I looked at the distributions of the data and the value counts for the various c
 ---
 ## Model Building
 
-### Logostic Linear Regression
+### Logistic Linear Regression
+
+Logistic regression is named for the function used at the core of the method, the logistic function.
+Below is an example logistic regression equation:
+
+y = e^(b0 + b1*x) / (1 + e^(b0 + b1*x))
+
+Where y is the predicted output, b0 is the bias or intercept term and b1 is the coefficient for the single input value (x). Each column in your input data has an associated b coefficient (a constant real value) that must be learned from your training data.
+
+The logistic function, also called the sigmoid function
 
 ---
 ## Model Prediction
@@ -95,8 +105,8 @@ I looked at the distributions of the data and the value counts for the various c
 | Label | precision | recall |  f1-score 
 | ----------- | ----------- | --------- | ------- |
 | 0 | 0.81 | 0.77 | 0.79 |
-| 1 |      0.69   |   0.74 |     0.72 |
-|   accuracy   | | |  0.76  |    
+| 1 | 0.69 | 0.74 | 0.72 |
+| accuracy |  |   | 0.76 |    
 
 ## Conclusion
 
