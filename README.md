@@ -4,13 +4,14 @@
 ## Project Overview
 
 - Objective : 
-  - To Predict Absenteeism at Company during Worktime
-  - to integrate Python, SQL, and Tableau
+  - **To Predict Absenteeism at Company during Worktime**
+  - to integrate **Python, SQL, and Tableau**
 - Classification Problem
 - Data cleaning and Data preprocessing
 - Exploratory Data Analysis
-- Logistic Regression Model Training and Prediction
-- Integrated Model with SQL and Tableau
+- **Logistic Regression Model** Training and Prediction
+- Inteprating its Odd Ratios and Coefficients
+- Integrating Model with SQL and Tableau
 
 ---
 ## About Project
@@ -69,11 +70,50 @@ There is no missing values in data.
 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights :
 
+![](https://github.com/SidSolanki28/Absenteeism-at-Work/blob/master/Images/download.png)
+
 ---
 ## Model Building
 
 ### Logostic Linear Regression
+
+---
+## Model Prediction
+
+| Features| Coefficients | Odds Ratio 
+| ----------- | ----------- | --------- |
+| Reason C | 1.716629 | 5.565735 |
+| Reason A | 1.559403 | 4.755983 |
+| Transportation expense	| 0.701718	| 2.017215 |
+|	Social drinker | 0.588378	| 1.801065 |
+|	Weight	| 0.586728 | 1.798096 | 
+
+---
+## Model Performance
+
+| Label | precision | recall |  f1-score 
+| ----------- | ----------- | --------- | ------- |
+              precision    recall  f1-score   support
+
+          | 0 | 0.81 | 0.77 | 0.79 |
+           | 1 |      0.69   |   0.74 |     0.72 |
+
+    accuracy   | | |                      0.76  |    
+
+## Conclusion
+
+After analyzing its Odd Ratios and Coefficients, we predict
+
+- Reason A and C has most weightage
+
+Therefore, reasons like poisoning, injuries and various diseases are most common reasons for absenteeism.
+
+- Also, Transport is also an issue for an employee to get absent for hours.
+
+- Also, Disciplinary failure has highly negative coefficient means if there is no discipine penalty, there is more chance that employee become present in working hours.
+
 ---
 
+## Further Improvements
 
-
+Working on SQL and Tableau Integration
