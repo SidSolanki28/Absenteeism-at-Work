@@ -70,9 +70,8 @@ There is no missing values in data.
 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights :
 
-![](https://github.com/SidSolanki28/Absenteeism-at-Work/blob/master/Images/download.png)
-
-
+![](https://github.com/SidSolanki28/Absenteeism-at-Work/blob/master/Images/download%20(1).png)
+![](https://github.com/SidSolanki28/Absenteeism-at-Work/blob/master/Images/download%20(2).png)
 
 ---
 ## Model Building
@@ -95,10 +94,9 @@ I looked at the distributions of the data and the value counts for the various c
 
 | Label | precision | recall |  f1-score 
 | ----------- | ----------- | --------- | ------- |
-          | 0 | 0.81 | 0.77 | 0.79 |
-           | 1 |      0.69   |   0.74 |     0.72 |
-
- |   accuracy   | | |                      0.76  |    
+| 0 | 0.81 | 0.77 | 0.79 |
+| 1 |      0.69   |   0.74 |     0.72 |
+|   accuracy   | | |  0.76  |    
 
 ## Conclusion
 
